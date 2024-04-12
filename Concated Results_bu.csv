@@ -1,0 +1,380 @@
+,Dataset,Input Size,Type,Classifier,Formated Results,Area Under Curve
+0,Task 3,4096,Vanilla AE (0.75 Masked),GMM,"0.5352 (0.3778, 1.0000)",0.5
+1,Task 3,4096,Vanilla AE (0.75 Masked),GradientBoostingClassifier,"0.4421 (0.3867, 0.5350)",0.6220158730158729
+2,Task 3,4096,Vanilla AE (0.75 Masked),ExtraTreesClassifier,"0.4048 (0.6333, 0.3067)",0.6602733785822021
+3,Task 3,4096,Vanilla AE (0.75 Masked),XGBClassifier,"0.3660 (0.5133, 0.3171)",0.6544261294261294
+4,Task 3,4096,Vanilla AE (0.75 Masked),LogisticRegression,"0.3333 (1.0000, 0.2000)",0.72
+5,Task 3,4096,Vanilla AE (0.75 Masked),RandomForestClassifier,"0.2921 (0.4000, 0.2333)",0.5483917124542124
+6,Task 3,4096,Vanilla AE (0.75 Masked),HBOS,"0.1667 (0.3000, 0.1167)",0.5366934046345812
+7,Task 3,4096,Vanilla AE (0.75 Masked),COPOD,"0.1500 (0.4000, 0.0952)",0.5476190476190477
+8,Task 3,4096,Vanilla AE (0.75 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+9,Task 3,4096,Vanilla AE (0.75 Masked),KNeighborsClassifier,"0.0000 (0.0000, 0.0000)",0.5
+10,Task 3,4096,Vanilla AE (0.50 Masked),GradientBoostingClassifier,"0.5539 (0.6383, 0.5040)",0.6808014346764347
+11,Task 3,4096,Vanilla AE (0.50 Masked),GMM,"0.5317 (0.3681, 1.0000)",0.5
+12,Task 3,4096,Vanilla AE (0.50 Masked),XGBClassifier,"0.4042 (0.4100, 0.4171)",0.5940412365412364
+13,Task 3,4096,Vanilla AE (0.50 Masked),KNeighborsClassifier,"0.4000 (0.5000, 0.3333)",0.6369047619047619
+14,Task 3,4096,Vanilla AE (0.50 Masked),LogisticRegression,"0.3852 (0.4444, 0.4087)",0.6048534798534799
+15,Task 3,4096,Vanilla AE (0.50 Masked),COPOD,"0.2857 (1.0000, 0.1667)",0.5833333333333334
+16,Task 3,4096,Vanilla AE (0.50 Masked),RandomForestClassifier,"0.2857 (1.0000, 0.1667)",0.6071428571428572
+17,Task 3,4096,Vanilla AE (0.50 Masked),ExtraTreesClassifier,"0.2714 (0.4000, 0.2167)",0.6316602025425555
+18,Task 3,4096,Vanilla AE (0.50 Masked),HBOS,"0.1778 (0.4000, 0.1250)",0.5625
+19,Task 3,4096,Vanilla AE (0.50 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+20,Task 3,4096,Vanilla AE (0.50 Masked),SVC,"0.0000 (0.0000, 0.0000)",0.3571428571428571
+21,Task 3,4096,Vanilla AE (0.25 Masked),GMM,"0.5582 (0.3909, 1.0000)",0.5
+22,Task 3,4096,Vanilla AE (0.25 Masked),GradientBoostingClassifier,"0.5123 (0.4467, 0.6500)",0.6842708333333334
+23,Task 3,4096,Vanilla AE (0.25 Masked),XGBClassifier,"0.4444 (0.4867, 0.4200)",0.7164258780435251
+24,Task 3,4096,Vanilla AE (0.25 Masked),LogisticRegression,"0.3460 (0.6133, 0.2762)",0.5981501831501831
+25,Task 3,4096,Vanilla AE (0.25 Masked),RandomForestClassifier,"0.3143 (0.3500, 0.2900)",0.6477258403361345
+26,Task 3,4096,Vanilla AE (0.25 Masked),ExtraTreesClassifier,"0.3071 (0.5500, 0.2500)",0.6587952488687783
+27,Task 3,4096,Vanilla AE (0.25 Masked),HBOS,"0.2000 (0.5000, 0.1250)",0.5625
+28,Task 3,4096,Vanilla AE (0.25 Masked),COPOD,"0.1333 (0.3333, 0.0833)",0.5288461538461539
+29,Task 3,4096,Vanilla AE (0.25 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+30,Task 3,4096,Vanilla AE,KNeighborsClassifier,"0.7962 (0.9200, 0.7076)",0.8394505494505495
+31,Task 3,4096,Vanilla AE,COPOD,"0.7767 (1.0000, 0.6533)",0.8266666666666665
+32,Task 3,4096,Vanilla AE,GradientBoostingClassifier,"0.6795 (0.6190, 0.7671)",0.8217186147186147
+33,Task 3,4096,Vanilla AE,XGBClassifier,"0.6767 (0.9500, 0.5500)",0.8363687782805431
+34,Task 3,4096,Vanilla AE,GMM,"0.5611 (0.3980, 1.0000)",0.5
+35,Task 3,4096,Vanilla AE,HBOS,"0.5010 (0.7667, 0.3824)",0.6707142857142857
+36,Task 3,4096,Vanilla AE,LogisticRegression,"0.4810 (0.7333, 0.3667)",0.6749503968253968
+37,Task 3,4096,Vanilla AE,SVC,"0.4803 (0.7333, 0.3911)",0.8381416361416362
+38,Task 3,4096,Vanilla AE,ABOD,"0.0000 (0.0000, 0.0000)",0.5
+39,Task 3,4096,Adversarial AE (0.75 Masked),GMM,"0.5698 (0.4044, 1.0000)",0.5
+40,Task 3,4096,Adversarial AE (0.75 Masked),GradientBoostingClassifier,"0.4702 (0.4950, 0.4883)",0.623655462184874
+41,Task 3,4096,Adversarial AE (0.75 Masked),XGBClassifier,"0.3869 (0.4900, 0.4024)",0.7413423382173382
+42,Task 3,4096,Adversarial AE (0.75 Masked),LogisticRegression,"0.3769 (0.4757, 0.3657)",0.6690487649605297
+43,Task 3,4096,Adversarial AE (0.75 Masked),RandomForestClassifier,"0.2933 (0.4467, 0.2533)",0.6450138709329886
+44,Task 3,4096,Adversarial AE (0.75 Masked),HBOS,"0.2857 (0.5000, 0.2000)",0.5666666666666667
+45,Task 3,4096,Adversarial AE (0.75 Masked),ExtraTreesClassifier,"0.2738 (0.8000, 0.1686)",0.672843137254902
+46,Task 3,4096,Adversarial AE (0.75 Masked),COPOD,"0.2299 (0.3667, 0.1738)",0.5220238095238094
+47,Task 3,4096,Adversarial AE (0.75 Masked),KNeighborsClassifier,"0.1818 (0.1667, 0.2000)",0.4333333333333333
+48,Task 3,4096,Adversarial AE (0.75 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+49,Task 3,4096,Adversarial AE (0.50 Masked),GMM,"0.5419 (0.3780, 1.0000)",0.5
+50,Task 3,4096,Adversarial AE (0.50 Masked),GradientBoostingClassifier,"0.4709 (0.4617, 0.5214)",0.5425137362637363
+51,Task 3,4096,Adversarial AE (0.50 Masked),XGBClassifier,"0.3827 (0.5333, 0.3271)",0.6050662083015025
+52,Task 3,4096,Adversarial AE (0.50 Masked),RandomForestClassifier,"0.3567 (0.4500, 0.3657)",0.6164329004329004
+53,Task 3,4096,Adversarial AE (0.50 Masked),LogisticRegression,"0.3389 (0.3800, 0.3333)",0.5967948717948718
+54,Task 3,4096,Adversarial AE (0.50 Masked),ExtraTreesClassifier,"0.3338 (0.6000, 0.2519)",0.6090237377002083
+55,Task 3,4096,Adversarial AE (0.50 Masked),HBOS,"0.2857 (0.5000, 0.2000)",0.5666666666666667
+56,Task 3,4096,Adversarial AE (0.50 Masked),COPOD,"0.1667 (0.4000, 0.1067)",0.5404166666666667
+57,Task 3,4096,Adversarial AE (0.50 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+58,Task 3,4096,Adversarial AE (0.50 Masked),KNeighborsClassifier,"0.0000 (0.0000, 0.0000)",0.38
+59,Task 3,4096,Adversarial AE (0.50 Masked),SVC,"0.0000 (0.0000, 0.0000)",0.4533333333333333
+60,Task 3,4096,Adversarial AE (0.25 Masked),GMM,"0.5225 (0.3546, 1.0000)",0.5
+61,Task 3,4096,Adversarial AE (0.25 Masked),GradientBoostingClassifier,"0.4976 (0.4321, 0.5988)",0.5809180402930403
+62,Task 3,4096,Adversarial AE (0.25 Masked),XGBClassifier,"0.4356 (0.5867, 0.4071)",0.6857142857142857
+63,Task 3,4096,Adversarial AE (0.25 Masked),ExtraTreesClassifier,"0.3581 (0.5500, 0.2824)",0.7019611662846957
+64,Task 3,4096,Adversarial AE (0.25 Masked),RandomForestClassifier,"0.2786 (0.3400, 0.2833)",0.4854808590102707
+65,Task 3,4096,Adversarial AE (0.25 Masked),LogisticRegression,"0.2571 (0.6500, 0.1786)",0.5966301672184026
+66,Task 3,4096,Adversarial AE (0.25 Masked),HBOS,"0.1600 (0.3000, 0.1167)",0.5453081232492998
+67,Task 3,4096,Adversarial AE (0.25 Masked),COPOD,"0.1371 (0.3000, 0.0900)",0.5268954248366013
+68,Task 3,4096,Adversarial AE (0.25 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+69,Task 3,4096,Adversarial AE,GradientBoostingClassifier,"0.7836 (0.8111, 0.7690)",0.871092032967033
+70,Task 3,4096,Adversarial AE,KNeighborsClassifier,"0.7121 (0.8667, 0.6762)",0.8095238095238095
+71,Task 3,4096,Adversarial AE,XGBClassifier,"0.7100 (0.8714, 0.6667)",0.8940088383838385
+72,Task 3,4096,Adversarial AE,COPOD,"0.6610 (0.9333, 0.5633)",0.7673809523809524
+73,Task 3,4096,Adversarial AE,SVC,"0.5767 (0.8762, 0.4767)",0.7437043650793651
+74,Task 3,4096,Adversarial AE,GMM,"0.5753 (0.4355, 0.9000)",0.6982302011713776
+75,Task 3,4096,Adversarial AE,LogisticRegression,"0.5701 (0.6800, 0.5438)",0.7950228937728937
+76,Task 3,4096,Adversarial AE,HBOS,"0.5505 (0.8800, 0.4633)",0.7102380952380952
+77,Task 3,4096,Adversarial AE,ABOD,"0.0000 (0.0000, 0.0000)",0.5
+0,Task 2 (50% Noise),4096,Vanilla AE (0.75 Masked),SVC,"1.0000 (1.0000, 1.0000)",1.0
+1,Task 2 (50% Noise),4096,Vanilla AE (0.75 Masked),XGBClassifier,"0.8000 (0.6667, 1.0000)",1.0
+2,Task 2 (50% Noise),4096,Vanilla AE (0.75 Masked),LogisticRegression,"0.7878 (0.6800, 1.0000)",0.7
+3,Task 2 (50% Noise),4096,Vanilla AE (0.75 Masked),GradientBoostingClassifier,"0.7778 (0.7000, 0.9600)",0.885
+4,Task 2 (50% Noise),4096,Vanilla AE (0.75 Masked),GMM,"0.7352 (0.6000, 1.0000)",0.5
+5,Task 2 (50% Noise),4096,Vanilla AE (0.75 Masked),KNeighborsClassifier,"0.7303 (0.6000, 1.0000)",0.5
+6,Task 2 (50% Noise),4096,Vanilla AE (0.75 Masked),HBOS,"0.3143 (0.2967, 0.4400)",0.2449999999999999
+7,Task 2 (50% Noise),4096,Vanilla AE (0.75 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+8,Task 2 (50% Noise),4096,Vanilla AE (0.75 Masked),COPOD,"0.0000 (0.0000, 0.0000)",0.45
+9,Task 2 (50% Noise),4096,Vanilla AE (0.50 Masked),SVC,"1.0000 (1.0000, 1.0000)",1.0
+10,Task 2 (50% Noise),4096,Vanilla AE (0.50 Masked),LogisticRegression,"0.8571 (1.0000, 0.7500)",0.875
+11,Task 2 (50% Noise),4096,Vanilla AE (0.50 Masked),RandomForestClassifier,"0.8571 (1.0000, 0.7500)",0.8125
+12,Task 2 (50% Noise),4096,Vanilla AE (0.50 Masked),GradientBoostingClassifier,"0.8036 (0.8750, 0.8000)",0.8
+13,Task 2 (50% Noise),4096,Vanilla AE (0.50 Masked),XGBClassifier,"0.8036 (0.8750, 0.8000)",0.7444444444444445
+14,Task 2 (50% Noise),4096,Vanilla AE (0.50 Masked),GMM,"0.8000 (0.6667, 1.0000)",0.5
+15,Task 2 (50% Noise),4096,Vanilla AE (0.50 Masked),KNeighborsClassifier,"0.8000 (0.6667, 1.0000)",0.5
+16,Task 2 (50% Noise),4096,Vanilla AE (0.50 Masked),HBOS,"0.4286 (0.4667, 0.5133)",0.39
+17,Task 2 (50% Noise),4096,Vanilla AE (0.50 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+18,Task 2 (50% Noise),4096,Vanilla AE (0.50 Masked),COPOD,"0.0000 (0.0000, 0.0000)",0.2708333333333333
+19,Task 2 (50% Noise),4096,Vanilla AE (0.50 Masked),ExtraTreesClassifier,"0.0000 (0.0000, 0.0000)",
+20,Task 2 (50% Noise),4096,Vanilla AE (0.25 Masked),SVC,"1.0000 (1.0000, 1.0000)",1.0
+21,Task 2 (50% Noise),4096,Vanilla AE (0.25 Masked),GMM,"0.8000 (0.6667, 1.0000)",0.5
+22,Task 2 (50% Noise),4096,Vanilla AE (0.25 Masked),LogisticRegression,"0.8000 (0.6667, 1.0000)",0.5
+23,Task 2 (50% Noise),4096,Vanilla AE (0.25 Masked),XGBClassifier,"0.7790 (0.7433, 0.8600)",0.5805555555555555
+24,Task 2 (50% Noise),4096,Vanilla AE (0.25 Masked),GradientBoostingClassifier,"0.7487 (0.7667, 0.7500)",0.625
+25,Task 2 (50% Noise),4096,Vanilla AE (0.25 Masked),KNeighborsClassifier,"0.7352 (0.6000, 1.0000)",0.5
+26,Task 2 (50% Noise),4096,Vanilla AE (0.25 Masked),HBOS,"0.6667 (0.5000, 1.0000)",0.5
+27,Task 2 (50% Noise),4096,Vanilla AE (0.25 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+28,Task 2 (50% Noise),4096,Vanilla AE (0.25 Masked),COPOD,"0.0000 (0.0000, 0.0000)",0.5
+29,Task 2 (50% Noise),4096,Vanilla AE,COPOD,"1.0000 (1.0000, 1.0000)",1.0
+30,Task 2 (50% Noise),4096,Vanilla AE,ExtraTreesClassifier,"1.0000 (1.0000, 1.0000)",1.0
+31,Task 2 (50% Noise),4096,Vanilla AE,GradientBoostingClassifier,"1.0000 (1.0000, 1.0000)",1.0
+32,Task 2 (50% Noise),4096,Vanilla AE,LogisticRegression,"1.0000 (1.0000, 1.0000)",1.0
+33,Task 2 (50% Noise),4096,Vanilla AE,XGBClassifier,"1.0000 (1.0000, 1.0000)",1.0
+34,Task 2 (50% Noise),4096,Vanilla AE,GMM,"0.8889 (0.8000, 1.0000)",0.75
+35,Task 2 (50% Noise),4096,Vanilla AE,KNeighborsClassifier,"0.5933 (1.0000, 0.4400)",0.72
+36,Task 2 (50% Noise),4096,Vanilla AE,HBOS,"0.5714 (0.5500, 0.6000)",0.7666666666666667
+37,Task 2 (50% Noise),4096,Vanilla AE,ABOD,"0.0000 (0.0000, 0.0000)",0.5
+38,Task 2 (50% Noise),4096,Adversarial AE (0.75 Masked),SVC,"1.0000 (1.0000, 1.0000)",1.0
+39,Task 2 (50% Noise),4096,Adversarial AE (0.75 Masked),XGBClassifier,"0.8256 (0.7767, 0.9100)",0.625
+40,Task 2 (50% Noise),4096,Adversarial AE (0.75 Masked),GradientBoostingClassifier,"0.8243 (0.8300, 0.8600)",0.758888888888889
+41,Task 2 (50% Noise),4096,Adversarial AE (0.75 Masked),GMM,"0.8218 (0.7000, 1.0000)",0.5
+42,Task 2 (50% Noise),4096,Adversarial AE (0.75 Masked),LogisticRegression,"0.8129 (0.7133, 0.9500)",0.7
+43,Task 2 (50% Noise),4096,Adversarial AE (0.75 Masked),KNeighborsClassifier,"0.8085 (0.7000, 1.0000)",0.5
+44,Task 2 (50% Noise),4096,Adversarial AE (0.75 Masked),HBOS,"0.4667 (0.4267, 0.5833)",0.375
+45,Task 2 (50% Noise),4096,Adversarial AE (0.75 Masked),COPOD,"0.0667 (0.1000, 0.0500)",0.425
+46,Task 2 (50% Noise),4096,Adversarial AE (0.75 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+47,Task 2 (50% Noise),4096,Adversarial AE (0.50 Masked),SVC,"1.0000 (1.0000, 1.0000)",1.0
+48,Task 2 (50% Noise),4096,Adversarial AE (0.50 Masked),GradientBoostingClassifier,"0.8889 (0.8000, 1.0000)",0.875
+49,Task 2 (50% Noise),4096,Adversarial AE (0.50 Masked),GMM,"0.8000 (0.6667, 1.0000)",0.5
+50,Task 2 (50% Noise),4096,Adversarial AE (0.50 Masked),KNeighborsClassifier,"0.8000 (0.6667, 1.0000)",0.5
+51,Task 2 (50% Noise),4096,Adversarial AE (0.50 Masked),XGBClassifier,"0.7500 (0.7500, 0.7500)",0.625
+52,Task 2 (50% Noise),4096,Adversarial AE (0.50 Masked),ExtraTreesClassifier,"0.7500 (0.6000, 1.0000)",0.888888888888889
+53,Task 2 (50% Noise),4096,Adversarial AE (0.50 Masked),RandomForestClassifier,"0.7500 (0.6000, 1.0000)",0.7777777777777778
+54,Task 2 (50% Noise),4096,Adversarial AE (0.50 Masked),LogisticRegression,"0.7296 (0.6000, 1.0000)",0.5833333333333334
+55,Task 2 (50% Noise),4096,Adversarial AE (0.50 Masked),HBOS,"0.6667 (0.5000, 1.0000)",0.5
+56,Task 2 (50% Noise),4096,Adversarial AE (0.50 Masked),COPOD,"0.1000 (0.2000, 0.0667)",0.5333333333333333
+57,Task 2 (50% Noise),4096,Adversarial AE (0.50 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+58,Task 2 (50% Noise),4096,Adversarial AE (0.25 Masked),SVC,"1.0000 (1.0000, 1.0000)",1.0
+59,Task 2 (50% Noise),4096,Adversarial AE (0.25 Masked),GMM,"0.8283 (0.7222, 1.0000)",0.5
+60,Task 2 (50% Noise),4096,Adversarial AE (0.25 Masked),KNeighborsClassifier,"0.8000 (0.6667, 1.0000)",0.5
+61,Task 2 (50% Noise),4096,Adversarial AE (0.25 Masked),LogisticRegression,"0.7863 (0.7067, 0.9100)",0.5283333333333333
+62,Task 2 (50% Noise),4096,Adversarial AE (0.25 Masked),XGBClassifier,"0.7722 (0.7500, 0.8300)",0.6977777777777778
+63,Task 2 (50% Noise),4096,Adversarial AE (0.25 Masked),GradientBoostingClassifier,"0.7092 (0.7667, 0.6767)",0.7683333333333333
+64,Task 2 (50% Noise),4096,Adversarial AE (0.25 Masked),HBOS,"0.4238 (0.4000, 0.5233)",0.3616666666666667
+65,Task 2 (50% Noise),4096,Adversarial AE (0.25 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+66,Task 2 (50% Noise),4096,Adversarial AE (0.25 Masked),COPOD,"0.0000 (0.0000, 0.0000)",0.5
+67,Task 2 (50% Noise),4096,Adversarial AE,COPOD,"1.0000 (1.0000, 1.0000)",1.0
+68,Task 2 (50% Noise),4096,Adversarial AE,ExtraTreesClassifier,"1.0000 (1.0000, 1.0000)",1.0
+69,Task 2 (50% Noise),4096,Adversarial AE,GradientBoostingClassifier,"1.0000 (1.0000, 1.0000)",1.0
+70,Task 2 (50% Noise),4096,Adversarial AE,HBOS,"1.0000 (1.0000, 1.0000)",1.0
+71,Task 2 (50% Noise),4096,Adversarial AE,LogisticRegression,"1.0000 (1.0000, 1.0000)",1.0
+72,Task 2 (50% Noise),4096,Adversarial AE,XGBClassifier,"1.0000 (1.0000, 1.0000)",1.0
+73,Task 2 (50% Noise),4096,Adversarial AE,KNeighborsClassifier,"0.9714 (0.9500, 1.0000)",0.9666666666666666
+74,Task 2 (50% Noise),4096,Adversarial AE,GMM,"0.8571 (0.7500, 1.0000)",0.8333333333333334
+75,Task 2 (50% Noise),4096,Adversarial AE,ABOD,"0.0000 (0.0000, 0.0000)",0.5
+0,Task 2 (25% Noise),4096,Vanilla AE (0.75 Masked),SVC,"1.0000 (1.0000, 1.0000)",1.0
+1,Task 2 (25% Noise),4096,Vanilla AE (0.75 Masked),GMM,"0.9091 (0.8333, 1.0000)",0.5
+2,Task 2 (25% Noise),4096,Vanilla AE (0.75 Masked),KNeighborsClassifier,"0.9091 (0.8333, 1.0000)",0.5
+3,Task 2 (25% Noise),4096,Vanilla AE (0.75 Masked),GradientBoostingClassifier,"0.8889 (1.0000, 0.8000)",1.0
+4,Task 2 (25% Noise),4096,Vanilla AE (0.75 Masked),LogisticRegression,"0.8000 (0.6667, 1.0000)",1.0
+5,Task 2 (25% Noise),4096,Vanilla AE (0.75 Masked),XGBClassifier,"0.7811 (0.7133, 0.9200)",0.5155555555555555
+6,Task 2 (25% Noise),4096,Vanilla AE (0.75 Masked),HBOS,"0.6667 (0.7500, 0.6000)",0.3
+7,Task 2 (25% Noise),4096,Vanilla AE (0.75 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+8,Task 2 (25% Noise),4096,Vanilla AE (0.75 Masked),COPOD,"0.0000 (0.0000, 0.0000)",0.3333333333333333
+9,Task 2 (25% Noise),4096,Vanilla AE (0.50 Masked),RandomForestClassifier,"1.0000 (1.0000, 1.0000)",1.0
+10,Task 2 (25% Noise),4096,Vanilla AE (0.50 Masked),SVC,"1.0000 (1.0000, 1.0000)",1.0
+11,Task 2 (25% Noise),4096,Vanilla AE (0.50 Masked),GradientBoostingClassifier,"0.8629 (0.8167, 0.9500)",0.925
+12,Task 2 (25% Noise),4096,Vanilla AE (0.50 Masked),GMM,"0.8352 (0.7333, 1.0000)",0.5
+13,Task 2 (25% Noise),4096,Vanilla AE (0.50 Masked),XGBClassifier,"0.8298 (0.8400, 0.8933)",0.977777777777778
+14,Task 2 (25% Noise),4096,Vanilla AE (0.50 Masked),LogisticRegression,"0.8232 (0.7533, 0.9500)",0.8405555555555555
+15,Task 2 (25% Noise),4096,Vanilla AE (0.50 Masked),KNeighborsClassifier,"0.8170 (0.7000, 1.0000)",0.5
+16,Task 2 (25% Noise),4096,Vanilla AE (0.50 Masked),HBOS,"0.4841 (0.4167, 0.5833)",0.2916666666666666
+17,Task 2 (25% Noise),4096,Vanilla AE (0.50 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+18,Task 2 (25% Noise),4096,Vanilla AE (0.50 Masked),COPOD,"0.0000 (0.0000, 0.0000)",0.41
+19,Task 2 (25% Noise),4096,Vanilla AE (0.25 Masked),SVC,"1.0000 (1.0000, 1.0000)",1.0
+20,Task 2 (25% Noise),4096,Vanilla AE (0.25 Masked),GMM,"0.8085 (0.7000, 1.0000)",0.5
+21,Task 2 (25% Noise),4096,Vanilla AE (0.25 Masked),GradientBoostingClassifier,"0.7814 (0.7033, 0.9000)",0.8777777777777779
+22,Task 2 (25% Noise),4096,Vanilla AE (0.25 Masked),LogisticRegression,"0.7811 (0.6467, 1.0000)",0.5472222222222223
+23,Task 2 (25% Noise),4096,Vanilla AE (0.25 Masked),XGBClassifier,"0.7695 (0.7000, 0.8667)",0.8388888888888889
+24,Task 2 (25% Noise),4096,Vanilla AE (0.25 Masked),KNeighborsClassifier,"0.7685 (0.6333, 1.0000)",0.5
+25,Task 2 (25% Noise),4096,Vanilla AE (0.25 Masked),HBOS,"0.4267 (0.3533, 0.5500)",0.275
+26,Task 2 (25% Noise),4096,Vanilla AE (0.25 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+27,Task 2 (25% Noise),4096,Vanilla AE (0.25 Masked),COPOD,"0.0000 (0.0000, 0.0000)",0.3666666666666666
+28,Task 2 (25% Noise),4096,Vanilla AE,ExtraTreesClassifier,"1.0000 (1.0000, 1.0000)",1.0
+29,Task 2 (25% Noise),4096,Vanilla AE,GradientBoostingClassifier,"1.0000 (1.0000, 1.0000)",1.0
+30,Task 2 (25% Noise),4096,Vanilla AE,HBOS,"1.0000 (1.0000, 1.0000)",1.0
+31,Task 2 (25% Noise),4096,Vanilla AE,KNeighborsClassifier,"1.0000 (1.0000, 1.0000)",1.0
+32,Task 2 (25% Noise),4096,Vanilla AE,LogisticRegression,"1.0000 (1.0000, 1.0000)",1.0
+33,Task 2 (25% Noise),4096,Vanilla AE,RandomForestClassifier,"1.0000 (1.0000, 1.0000)",1.0
+34,Task 2 (25% Noise),4096,Vanilla AE,XGBClassifier,"1.0000 (1.0000, 1.0000)",1.0
+35,Task 2 (25% Noise),4096,Vanilla AE,COPOD,"0.9714 (0.9500, 1.0000)",0.9583333333333334
+36,Task 2 (25% Noise),4096,Vanilla AE,GMM,"0.8436 (0.7333, 1.0000)",0.5
+37,Task 2 (25% Noise),4096,Vanilla AE,ABOD,"0.0000 (0.0000, 0.0000)",0.5
+38,Task 2 (25% Noise),4096,Adversarial AE (0.75 Masked),SVC,"1.0000 (1.0000, 1.0000)",1.0
+39,Task 2 (25% Noise),4096,Adversarial AE (0.75 Masked),XGBClassifier,"1.0000 (1.0000, 1.0000)",1.0
+40,Task 2 (25% Noise),4096,Adversarial AE (0.75 Masked),GradientBoostingClassifier,"0.8492 (0.7800, 0.9500)",0.95
+41,Task 2 (25% Noise),4096,Adversarial AE (0.75 Masked),LogisticRegression,"0.8044 (0.6933, 1.0000)",0.6944444444444444
+42,Task 2 (25% Noise),4096,Adversarial AE (0.75 Masked),GMM,"0.7836 (0.6667, 1.0000)",0.5
+43,Task 2 (25% Noise),4096,Adversarial AE (0.75 Masked),KNeighborsClassifier,"0.7836 (0.6667, 1.0000)",0.5
+44,Task 2 (25% Noise),4096,Adversarial AE (0.75 Masked),HBOS,"0.6190 (0.6833, 0.6800)",0.5566666666666666
+45,Task 2 (25% Noise),4096,Adversarial AE (0.75 Masked),COPOD,"0.1000 (0.2000, 0.0667)",0.5333333333333333
+46,Task 2 (25% Noise),4096,Adversarial AE (0.75 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+47,Task 2 (25% Noise),4096,Adversarial AE (0.50 Masked),SVC,"1.0000 (1.0000, 1.0000)",1.0
+48,Task 2 (25% Noise),4096,Adversarial AE (0.50 Masked),GMM,"0.9055 (0.8333, 1.0000)",0.5
+49,Task 2 (25% Noise),4096,Adversarial AE (0.50 Masked),LogisticRegression,"0.8236 (0.7333, 1.0000)",0.6
+50,Task 2 (25% Noise),4096,Adversarial AE (0.50 Masked),XGBClassifier,"0.7890 (0.7800, 0.8667)",0.75
+51,Task 2 (25% Noise),4096,Adversarial AE (0.50 Masked),GradientBoostingClassifier,"0.7759 (0.7667, 0.8433)",0.7333333333333334
+52,Task 2 (25% Noise),4096,Adversarial AE (0.50 Masked),KNeighborsClassifier,"0.7685 (0.6333, 1.0000)",0.5
+53,Task 2 (25% Noise),4096,Adversarial AE (0.50 Masked),RandomForestClassifier,"0.6500 (0.5000, 1.0000)",1.0
+54,Task 2 (25% Noise),4096,Adversarial AE (0.50 Masked),HBOS,"0.6421 (0.8667, 0.5267)",0.6
+55,Task 2 (25% Noise),4096,Adversarial AE (0.50 Masked),COPOD,"0.1500 (0.1500, 0.1500)",0.475
+56,Task 2 (25% Noise),4096,Adversarial AE (0.50 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+57,Task 2 (25% Noise),4096,Adversarial AE (0.25 Masked),SVC,"1.0000 (1.0000, 1.0000)",1.0
+58,Task 2 (25% Noise),4096,Adversarial AE (0.25 Masked),XGBClassifier,"1.0000 (1.0000, 1.0000)",1.0
+59,Task 2 (25% Noise),4096,Adversarial AE (0.25 Masked),GradientBoostingClassifier,"0.8596 (0.7967, 0.9500)",0.7794444444444444
+60,Task 2 (25% Noise),4096,Adversarial AE (0.25 Masked),GMM,"0.8000 (0.6667, 1.0000)",0.5
+61,Task 2 (25% Noise),4096,Adversarial AE (0.25 Masked),KNeighborsClassifier,"0.8000 (0.6667, 1.0000)",0.5
+62,Task 2 (25% Noise),4096,Adversarial AE (0.25 Masked),LogisticRegression,"0.8000 (0.6667, 1.0000)",0.625
+63,Task 2 (25% Noise),4096,Adversarial AE (0.25 Masked),HBOS,"0.5800 (0.6400, 0.6333)",0.4166666666666667
+64,Task 2 (25% Noise),4096,Adversarial AE (0.25 Masked),COPOD,"0.1571 (0.1167, 0.2667)",0.4433333333333333
+65,Task 2 (25% Noise),4096,Adversarial AE (0.25 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+66,Task 2 (25% Noise),4096,Adversarial AE,COPOD,"1.0000 (1.0000, 1.0000)",1.0
+67,Task 2 (25% Noise),4096,Adversarial AE,ExtraTreesClassifier,"1.0000 (1.0000, 1.0000)",1.0
+68,Task 2 (25% Noise),4096,Adversarial AE,GMM,"1.0000 (1.0000, 1.0000)",1.0
+69,Task 2 (25% Noise),4096,Adversarial AE,GradientBoostingClassifier,"1.0000 (1.0000, 1.0000)",1.0
+70,Task 2 (25% Noise),4096,Adversarial AE,HBOS,"1.0000 (1.0000, 1.0000)",1.0
+71,Task 2 (25% Noise),4096,Adversarial AE,KNeighborsClassifier,"1.0000 (1.0000, 1.0000)",1.0
+72,Task 2 (25% Noise),4096,Adversarial AE,LogisticRegression,"1.0000 (1.0000, 1.0000)",1.0
+73,Task 2 (25% Noise),4096,Adversarial AE,XGBClassifier,"1.0000 (1.0000, 1.0000)",1.0
+74,Task 2 (25% Noise),4096,Adversarial AE,RandomForestClassifier,"0.9333 (0.9000, 1.0000)",1.0
+75,Task 2 (25% Noise),4096,Adversarial AE,ABOD,"0.0000 (0.0000, 0.0000)",0.5
+0,Task 2 (10% Noise),4096,Vanilla AE (0.75 Masked),SVC,"1.0000 (1.0000, 1.0000)",1.0
+1,Task 2 (10% Noise),4096,Vanilla AE (0.75 Masked),GradientBoostingClassifier,"0.9270 (0.9100, 0.9600)",0.91
+2,Task 2 (10% Noise),4096,Vanilla AE (0.75 Masked),GMM,"0.9091 (0.8333, 1.0000)",0.5
+3,Task 2 (10% Noise),4096,Vanilla AE (0.75 Masked),KNeighborsClassifier,"0.9091 (0.8333, 1.0000)",0.5
+4,Task 2 (10% Noise),4096,Vanilla AE (0.75 Masked),LogisticRegression,"0.8655 (0.7667, 1.0000)",0.65
+5,Task 2 (10% Noise),4096,Vanilla AE (0.75 Masked),XGBClassifier,"0.8256 (0.8400, 0.8400)",0.6849999999999999
+6,Task 2 (10% Noise),4096,Vanilla AE (0.75 Masked),ExtraTreesClassifier,"0.7500 (1.0000, 0.6000)",1.0
+7,Task 2 (10% Noise),4096,Vanilla AE (0.75 Masked),HBOS,"0.6000 (0.4933, 0.8500)",0.425
+8,Task 2 (10% Noise),4096,Vanilla AE (0.75 Masked),RandomForestClassifier,"0.3333 (0.3333, 0.3333)",0.3888888888888889
+9,Task 2 (10% Noise),4096,Vanilla AE (0.75 Masked),COPOD,"0.1600 (0.1667, 0.1667)",0.5
+10,Task 2 (10% Noise),4096,Vanilla AE (0.75 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+11,Task 2 (10% Noise),4096,Vanilla AE (0.50 Masked),SVC,"1.0000 (1.0000, 1.0000)",1.0
+12,Task 2 (10% Noise),4096,Vanilla AE (0.50 Masked),RandomForestClassifier,"0.8571 (0.7500, 1.0000)",0.6666666666666667
+13,Task 2 (10% Noise),4096,Vanilla AE (0.50 Masked),XGBClassifier,"0.8571 (0.7500, 1.0000)",0.7777777777777779
+14,Task 2 (10% Noise),4096,Vanilla AE (0.50 Masked),GradientBoostingClassifier,"0.8489 (0.8333, 0.9200)",0.8800000000000001
+15,Task 2 (10% Noise),4096,Vanilla AE (0.50 Masked),GMM,"0.8170 (0.7000, 1.0000)",0.5
+16,Task 2 (10% Noise),4096,Vanilla AE (0.50 Masked),KNeighborsClassifier,"0.8085 (0.7000, 1.0000)",0.5
+17,Task 2 (10% Noise),4096,Vanilla AE (0.50 Masked),LogisticRegression,"0.8085 (0.7000, 1.0000)",0.7020833333333334
+18,Task 2 (10% Noise),4096,Vanilla AE (0.50 Masked),HBOS,"0.6667 (0.5000, 1.0000)",0.5
+19,Task 2 (10% Noise),4096,Vanilla AE (0.50 Masked),COPOD,"0.1143 (0.2000, 0.0800)",0.39
+20,Task 2 (10% Noise),4096,Vanilla AE (0.50 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+21,Task 2 (10% Noise),4096,Vanilla AE (0.25 Masked),ExtraTreesClassifier,"1.0000 (1.0000, 1.0000)",1.0
+22,Task 2 (10% Noise),4096,Vanilla AE (0.25 Masked),SVC,"1.0000 (1.0000, 1.0000)",1.0
+23,Task 2 (10% Noise),4096,Vanilla AE (0.25 Masked),GMM,"0.9091 (0.8333, 1.0000)",0.5
+24,Task 2 (10% Noise),4096,Vanilla AE (0.25 Masked),KNeighborsClassifier,"0.9091 (0.8333, 1.0000)",0.5
+25,Task 2 (10% Noise),4096,Vanilla AE (0.25 Masked),XGBClassifier,"0.9048 (1.0000, 0.8500)",0.95
+26,Task 2 (10% Noise),4096,Vanilla AE (0.25 Masked),RandomForestClassifier,"0.8889 (1.0000, 0.8000)",0.8
+27,Task 2 (10% Noise),4096,Vanilla AE (0.25 Masked),LogisticRegression,"0.8433 (0.7833, 0.9500)",0.8305555555555555
+28,Task 2 (10% Noise),4096,Vanilla AE (0.25 Masked),GradientBoostingClassifier,"0.8262 (0.7533, 0.9333)",0.888888888888889
+29,Task 2 (10% Noise),4096,Vanilla AE (0.25 Masked),HBOS,"0.6167 (0.4583, 1.0000)",0.5
+30,Task 2 (10% Noise),4096,Vanilla AE (0.25 Masked),COPOD,"0.1333 (0.2000, 0.1000)",0.45
+31,Task 2 (10% Noise),4096,Vanilla AE (0.25 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+32,Task 2 (10% Noise),4096,Vanilla AE,COPOD,"1.0000 (1.0000, 1.0000)",1.0
+33,Task 2 (10% Noise),4096,Vanilla AE,ExtraTreesClassifier,"1.0000 (1.0000, 1.0000)",1.0
+34,Task 2 (10% Noise),4096,Vanilla AE,GMM,"1.0000 (1.0000, 1.0000)",1.0
+35,Task 2 (10% Noise),4096,Vanilla AE,GradientBoostingClassifier,"1.0000 (1.0000, 1.0000)",1.0
+36,Task 2 (10% Noise),4096,Vanilla AE,HBOS,"1.0000 (1.0000, 1.0000)",1.0
+37,Task 2 (10% Noise),4096,Vanilla AE,KNeighborsClassifier,"1.0000 (1.0000, 1.0000)",1.0
+38,Task 2 (10% Noise),4096,Vanilla AE,LogisticRegression,"1.0000 (1.0000, 1.0000)",1.0
+39,Task 2 (10% Noise),4096,Vanilla AE,RandomForestClassifier,"1.0000 (1.0000, 1.0000)",1.0
+40,Task 2 (10% Noise),4096,Vanilla AE,XGBClassifier,"1.0000 (1.0000, 1.0000)",1.0
+41,Task 2 (10% Noise),4096,Vanilla AE,SVC,"0.9500 (0.9200, 1.0000)",1.0
+42,Task 2 (10% Noise),4096,Vanilla AE,ABOD,"0.0000 (0.0000, 0.0000)",0.5
+43,Task 2 (10% Noise),4096,Adversarial AE (0.75 Masked),SVC,"1.0000 (1.0000, 1.0000)",1.0
+44,Task 2 (10% Noise),4096,Adversarial AE (0.75 Masked),XGBClassifier,"0.8514 (0.9600, 0.7767)",0.8909722222222223
+45,Task 2 (10% Noise),4096,Adversarial AE (0.75 Masked),GradientBoostingClassifier,"0.8243 (0.8833, 0.8300)",0.925
+46,Task 2 (10% Noise),4096,Adversarial AE (0.75 Masked),GMM,"0.8236 (0.7333, 1.0000)",0.5
+47,Task 2 (10% Noise),4096,Adversarial AE (0.75 Masked),KNeighborsClassifier,"0.8236 (0.7333, 1.0000)",0.5
+48,Task 2 (10% Noise),4096,Adversarial AE (0.75 Masked),LogisticRegression,"0.7618 (0.7267, 0.8933)",0.8875
+49,Task 2 (10% Noise),4096,Adversarial AE (0.75 Masked),HBOS,"0.6511 (0.7267, 0.6833)",0.5583333333333333
+50,Task 2 (10% Noise),4096,Adversarial AE (0.75 Masked),RandomForestClassifier,"0.5714 (0.4000, 1.0000)",0.625
+51,Task 2 (10% Noise),4096,Adversarial AE (0.75 Masked),ExtraTreesClassifier,"0.5000 (0.3333, 1.0000)",0.6
+52,Task 2 (10% Noise),4096,Adversarial AE (0.75 Masked),COPOD,"0.3048 (0.3500, 0.3000)",0.5833333333333334
+53,Task 2 (10% Noise),4096,Adversarial AE (0.75 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+54,Task 2 (10% Noise),4096,Adversarial AE (0.50 Masked),SVC,"1.0000 (1.0000, 1.0000)",1.0
+55,Task 2 (10% Noise),4096,Adversarial AE (0.50 Masked),GradientBoostingClassifier,"0.8700 (0.8167, 0.9500)",0.9125
+56,Task 2 (10% Noise),4096,Adversarial AE (0.50 Masked),XGBClassifier,"0.8592 (0.7933, 0.9500)",0.7027777777777777
+57,Task 2 (10% Noise),4096,Adversarial AE (0.50 Masked),GMM,"0.8436 (0.7333, 1.0000)",0.5
+58,Task 2 (10% Noise),4096,Adversarial AE (0.50 Masked),KNeighborsClassifier,"0.8436 (0.7333, 1.0000)",0.5
+59,Task 2 (10% Noise),4096,Adversarial AE (0.50 Masked),LogisticRegression,"0.8078 (0.6800, 1.0000)",0.6555555555555556
+60,Task 2 (10% Noise),4096,Adversarial AE (0.50 Masked),ExtraTreesClassifier,"0.8000 (0.6667, 1.0000)",1.0
+61,Task 2 (10% Noise),4096,Adversarial AE (0.50 Masked),RandomForestClassifier,"0.7500 (0.6000, 1.0000)",0.8888888888888888
+62,Task 2 (10% Noise),4096,Adversarial AE (0.50 Masked),HBOS,"0.6743 (0.8333, 0.6467)",0.6900000000000001
+63,Task 2 (10% Noise),4096,Adversarial AE (0.50 Masked),COPOD,"0.4210 (0.5667, 0.4000)",0.55
+64,Task 2 (10% Noise),4096,Adversarial AE (0.50 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+65,Task 2 (10% Noise),4096,Adversarial AE (0.25 Masked),SVC,"1.0000 (1.0000, 1.0000)",1.0
+66,Task 2 (10% Noise),4096,Adversarial AE (0.25 Masked),GMM,"0.8545 (0.7500, 1.0000)",0.5
+67,Task 2 (10% Noise),4096,Adversarial AE (0.25 Masked),KNeighborsClassifier,"0.8545 (0.7500, 1.0000)",0.5
+68,Task 2 (10% Noise),4096,Adversarial AE (0.25 Masked),GradientBoostingClassifier,"0.8542 (0.8125, 0.9375)",0.8975694444444444
+69,Task 2 (10% Noise),4096,Adversarial AE (0.25 Masked),XGBClassifier,"0.8311 (0.7533, 0.9600)",0.7905555555555556
+70,Task 2 (10% Noise),4096,Adversarial AE (0.25 Masked),LogisticRegression,"0.7814 (0.6875, 0.9375)",0.4979166666666667
+71,Task 2 (10% Noise),4096,Adversarial AE (0.25 Masked),HBOS,"0.7000 (0.5867, 0.9500)",0.575
+72,Task 2 (10% Noise),4096,Adversarial AE (0.25 Masked),COPOD,"0.2933 (0.3333, 0.2667)",0.4833333333333334
+73,Task 2 (10% Noise),4096,Adversarial AE (0.25 Masked),ExtraTreesClassifier,"0.2857 (0.1667, 1.0000)",1.0
+74,Task 2 (10% Noise),4096,Adversarial AE (0.25 Masked),RandomForestClassifier,"0.2857 (0.1667, 1.0000)",0.6
+75,Task 2 (10% Noise),4096,Adversarial AE (0.25 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+76,Task 2 (10% Noise),4096,Adversarial AE,COPOD,"1.0000 (1.0000, 1.0000)",1.0
+77,Task 2 (10% Noise),4096,Adversarial AE,ExtraTreesClassifier,"1.0000 (1.0000, 1.0000)",1.0
+78,Task 2 (10% Noise),4096,Adversarial AE,GradientBoostingClassifier,"1.0000 (1.0000, 1.0000)",1.0
+79,Task 2 (10% Noise),4096,Adversarial AE,HBOS,"1.0000 (1.0000, 1.0000)",1.0
+80,Task 2 (10% Noise),4096,Adversarial AE,KNeighborsClassifier,"1.0000 (1.0000, 1.0000)",1.0
+81,Task 2 (10% Noise),4096,Adversarial AE,LogisticRegression,"1.0000 (1.0000, 1.0000)",1.0
+82,Task 2 (10% Noise),4096,Adversarial AE,RandomForestClassifier,"1.0000 (1.0000, 1.0000)",1.0
+83,Task 2 (10% Noise),4096,Adversarial AE,SVC,"1.0000 (1.0000, 1.0000)",1.0
+84,Task 2 (10% Noise),4096,Adversarial AE,XGBClassifier,"1.0000 (1.0000, 1.0000)",1.0
+85,Task 2 (10% Noise),4096,Adversarial AE,GMM,"0.8796 (0.7933, 1.0000)",0.65
+86,Task 2 (10% Noise),4096,Adversarial AE,ABOD,"0.0000 (0.0000, 0.0000)",0.5
+0,Task 1,4096,Vanilla AE (0.75 Masked),GMM,"0.7733 (0.6333, 1.0000)",0.5
+1,Task 1,4096,Vanilla AE (0.75 Masked),HBOS,"0.7133 (0.6000, 0.9000)",0.45
+2,Task 1,4096,Vanilla AE (0.75 Masked),GradientBoostingClassifier,"0.6730 (0.6767, 0.7500)",0.6902777777777778
+3,Task 1,4096,Vanilla AE (0.75 Masked),LogisticRegression,"0.6711 (0.6733, 0.7333)",0.6083333333333333
+4,Task 1,4096,Vanilla AE (0.75 Masked),XGBClassifier,"0.6457 (0.6000, 0.7500)",0.6472222222222223
+5,Task 1,4096,Vanilla AE (0.75 Masked),COPOD,"0.5352 (0.7667, 0.4333)",0.5666666666666667
+6,Task 1,4096,Vanilla AE (0.75 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+7,Task 1,4096,Vanilla AE (0.50 Masked),GMM,"0.8400 (0.7333, 1.0000)",0.5
+8,Task 1,4096,Vanilla AE (0.50 Masked),XGBClassifier,"0.7925 (0.8433, 0.8000)",0.6875
+9,Task 1,4096,Vanilla AE (0.50 Masked),LogisticRegression,"0.6867 (0.5333, 1.0000)",0.513888888888889
+10,Task 1,4096,Vanilla AE (0.50 Masked),HBOS,"0.6533 (0.6867, 0.7167)",0.40625
+11,Task 1,4096,Vanilla AE (0.50 Masked),GradientBoostingClassifier,"0.6087 (0.7433, 0.5667)",0.6875
+12,Task 1,4096,Vanilla AE (0.50 Masked),COPOD,"0.3886 (0.8000, 0.2833)",0.59375
+13,Task 1,4096,Vanilla AE (0.50 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+14,Task 1,4096,Vanilla AE (0.25 Masked),GMM,"0.7570 (0.6333, 1.0000)",0.5
+15,Task 1,4096,Vanilla AE (0.25 Masked),LogisticRegression,"0.7101 (0.6267, 0.8600)",0.4905555555555556
+16,Task 1,4096,Vanilla AE (0.25 Masked),HBOS,"0.6971 (0.6200, 0.9200)",0.4599999999999999
+17,Task 1,4096,Vanilla AE (0.25 Masked),GradientBoostingClassifier,"0.6300 (0.7500, 0.5733)",0.6205555555555555
+18,Task 1,4096,Vanilla AE (0.25 Masked),XGBClassifier,"0.6267 (0.6133, 0.6900)",0.5549999999999999
+19,Task 1,4096,Vanilla AE (0.25 Masked),ExtraTreesClassifier,"0.5000 (0.3333, 1.0000)",1.0
+20,Task 1,4096,Vanilla AE (0.25 Masked),KNeighborsClassifier,"0.5000 (0.3333, 1.0000)",0.5
+21,Task 1,4096,Vanilla AE (0.25 Masked),COPOD,"0.3143 (0.3833, 0.3133)",0.5483333333333333
+22,Task 1,4096,Vanilla AE (0.25 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+23,Task 1,4096,Vanilla AE,GradientBoostingClassifier,"1.0000 (1.0000, 1.0000)",1.0
+24,Task 1,4096,Vanilla AE,KNeighborsClassifier,"1.0000 (1.0000, 1.0000)",1.0
+25,Task 1,4096,Vanilla AE,LogisticRegression,"1.0000 (1.0000, 1.0000)",1.0
+26,Task 1,4096,Vanilla AE,XGBClassifier,"1.0000 (1.0000, 1.0000)",1.0
+27,Task 1,4096,Vanilla AE,COPOD,"0.9492 (0.9100, 1.0000)",0.9166666666666666
+28,Task 1,4096,Vanilla AE,HBOS,"0.9214 (0.8700, 1.0000)",0.9
+29,Task 1,4096,Vanilla AE,GMM,"0.7933 (0.6733, 1.0000)",0.6666666666666667
+30,Task 1,4096,Vanilla AE,ABOD,"0.0000 (0.0000, 0.0000)",0.5
+31,Task 1,4096,Adversarial AE (0.75 Masked),GMM,"0.7533 (0.6333, 1.0000)",0.5
+32,Task 1,4096,Adversarial AE (0.75 Masked),HBOS,"0.7433 (0.7500, 0.8500)",0.65625
+33,Task 1,4096,Adversarial AE (0.75 Masked),LogisticRegression,"0.6944 (0.6000, 0.8933)",0.6266666666666667
+34,Task 1,4096,Adversarial AE (0.75 Masked),GradientBoostingClassifier,"0.6576 (0.6633, 0.7167)",0.5520833333333333
+35,Task 1,4096,Adversarial AE (0.75 Masked),XGBClassifier,"0.6110 (0.6867, 0.6833)",0.7138888888888889
+36,Task 1,4096,Adversarial AE (0.75 Masked),COPOD,"0.4244 (0.4100, 0.4667)",0.46875
+37,Task 1,4096,Adversarial AE (0.75 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+38,Task 1,4096,Adversarial AE (0.50 Masked),GMM,"0.7418 (0.6000, 1.0000)",0.5
+39,Task 1,4096,Adversarial AE (0.50 Masked),LogisticRegression,"0.7252 (0.6000, 0.9333)",0.6488888888888888
+40,Task 1,4096,Adversarial AE (0.50 Masked),GradientBoostingClassifier,"0.6690 (0.5867, 0.9000)",0.7083333333333334
+41,Task 1,4096,Adversarial AE (0.50 Masked),HBOS,"0.6438 (0.5433, 0.8267)",0.4133333333333333
+42,Task 1,4096,Adversarial AE (0.50 Masked),XGBClassifier,"0.6333 (0.5667, 0.8333)",0.5166666666666666
+43,Task 1,4096,Adversarial AE (0.50 Masked),COPOD,"0.5400 (0.7333, 0.4467)",0.5650000000000001
+44,Task 1,4096,Adversarial AE (0.50 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+45,Task 1,4096,Adversarial AE (0.25 Masked),HBOS,"0.8451 (0.7867, 0.9500)",0.6083333333333334
+46,Task 1,4096,Adversarial AE (0.25 Masked),GMM,"0.8170 (0.7000, 1.0000)",0.5
+47,Task 1,4096,Adversarial AE (0.25 Masked),KNeighborsClassifier,"0.8000 (0.6667, 1.0000)",0.5
+48,Task 1,4096,Adversarial AE (0.25 Masked),LogisticRegression,"0.8000 (0.6667, 1.0000)",0.125
+49,Task 1,4096,Adversarial AE (0.25 Masked),GradientBoostingClassifier,"0.7752 (0.7600, 0.7933)",0.6261111111111111
+50,Task 1,4096,Adversarial AE (0.25 Masked),XGBClassifier,"0.7752 (0.7200, 0.8700)",0.5305555555555556
+51,Task 1,4096,Adversarial AE (0.25 Masked),ExtraTreesClassifier,"0.7500 (0.7500, 0.7500)",0.75
+52,Task 1,4096,Adversarial AE (0.25 Masked),COPOD,"0.4076 (0.6500, 0.3533)",0.51
+53,Task 1,4096,Adversarial AE (0.25 Masked),ABOD,"0.0000 (0.0000, 0.0000)",0.5
+54,Task 1,4096,Adversarial AE,GradientBoostingClassifier,"1.0000 (1.0000, 1.0000)",1.0
+55,Task 1,4096,Adversarial AE,KNeighborsClassifier,"1.0000 (1.0000, 1.0000)",1.0
+56,Task 1,4096,Adversarial AE,LogisticRegression,"1.0000 (1.0000, 1.0000)",1.0
+57,Task 1,4096,Adversarial AE,XGBClassifier,"0.9714 (0.9500, 1.0000)",0.9666666666666666
+58,Task 1,4096,Adversarial AE,COPOD,"0.9333 (0.9000, 1.0000)",0.9
+59,Task 1,4096,Adversarial AE,HBOS,"0.9152 (0.8667, 1.0000)",0.85
+60,Task 1,4096,Adversarial AE,GMM,"0.7672 (0.6400, 1.0000)",0.575
+61,Task 1,4096,Adversarial AE,ABOD,"0.0000 (0.0000, 0.0000)",0.5
