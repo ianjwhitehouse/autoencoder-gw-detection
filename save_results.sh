@@ -22,4 +22,8 @@ cd new_O3
 jupyter nbconvert --to notebook --execute --inplace 'Calculate Best Classifier Score - Version 2.ipynb'
 cd ..
 
+cd Task3-freq
+jupyter nbconvert --to notebook --execute --inplace 'Calculate Best Classifier Score - Version 2.ipynb'
+cd ..
+
 jupyter nbconvert --to notebook --execute --inplace 'Merge Results.ipynb'

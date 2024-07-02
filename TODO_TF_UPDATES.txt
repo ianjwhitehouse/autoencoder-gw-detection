@@ -1,0 +1,2 @@
+1: Fix input shapes to new tensorflow format
+2: Change from save_weights to save(... + ".keras")

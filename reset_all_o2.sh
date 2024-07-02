@@ -63,3 +63,14 @@ mkdir z_layers
 # rm *.csv
 rm failed
 cd ..
+
+cd Task3-freq
+rm -rf ae_saved
+rm -rf autoencoders
+rm -rf z_layers
+mkdir ae_saved
+mkdir autoencoders
+mkdir z_layers
+# rm *.csv
+rm failed
+cd ..

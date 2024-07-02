@@ -18,17 +18,21 @@ do
     # ./run_ae.sh
     # cd ..
 
-    cd Task3-2
-    ./run_ae.sh
-    cd ..
+    # cd Task3-2
+    # ./run_ae.sh
+    # cd ..
 
-    cd Task3-2
-    ./run_ae.sh
-    cd ..
+    # cd Task3-2
+    # ./run_ae.sh
+    # cd ..
 
     # cd new_O3
     # ./run_ae.sh
     # cd ..
+
+    cd Task3-freq
+    ./run_ae.sh
+    cd ..
 
     ./reset_all_o2.sh
 done
